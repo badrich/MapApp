@@ -1,0 +1,21 @@
+{
+  "name": "MapApp",
+  "author": "Badr Mehdaoui <mehdaoui.badr@gmail.com>",
+  "description": "Simple App using Google map API",
+  "version": "0.0.1",
+  "repository" :
+  { "type" : "git",
+    "url" : "https://github.com/badrich/MapApp.git"
+  },
+  "readme": "README.md",
+  "main": "server.js",
+  "dependencies" : {
+      "express"    : "~4.7.2",
+      "mongoose"   : "~4.1.0",
+      "morgan"     : "~1.2.2",
+      "body-parser": "~1.5.2",
+      "jsonwebtoken": "^5.0.2",
+      "method-override": "~2.1.2"
+  },
+  "license": "MIT"
+}
